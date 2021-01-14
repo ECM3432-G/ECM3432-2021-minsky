@@ -49,15 +49,15 @@ public class Updater {
      * 
      * 
      * Step 1. Go here
-     * https://github.com/ExeterBScDTS/ECM3432-2021-minsky/releases/latest/
+     * https://github.com/ExeterBScDTS/ECM3432-2020-minsky/releases/latest/
      * 
      * Get a URL like this as the redirect endpoint. Like this
-     * https://github.com/ExeterBScDTS/ECM3432-2021-minsky/releases/tag/v0.1.8
+     * https://github.com/ExeterBScDTS/ECM3432-2020-minsky/releases/tag/v0.1.8
      * 
      * Step 2. Create new URL. Like this
-     * https://github.com/ExeterBScDTS/ECM3432-2021-minsky/releases/download/v0.1.8/
+     * https://github.com/ExeterBScDTS/ECM3432-2020-minsky/releases/download/v0.1.8/
      * minskyOne-v0.1.8.zip or to download war
-     * https://github.com/ExeterBScDTS/ECM3432-2021-minsky/releases/download/v0.1.8/
+     * https://github.com/ExeterBScDTS/ECM3432-2020-minsky/releases/download/v0.1.8/
      * minskyOne-0.2.war
      * 
      * See

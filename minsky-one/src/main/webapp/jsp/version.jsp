@@ -1,6 +1,6 @@
 <%@page import="minskyone.*,java.util.*,java.net.URI" language="java" contentType="application/json" %>
 <%
-  URI location = Updater.getRedirect("https://github.com/ECM3432-G/ECM3432-2021-minsky/releases/latest/");
+  URI location = Updater.getRedirect("https://github.com/ExeterBScDTS/ECM3432-2020-minsky/releases/latest/");
   String[] url = location.getPath().split("/");
   String versionID = url[url.length-1];
   String currentID = Updater.getInstalledVer();
