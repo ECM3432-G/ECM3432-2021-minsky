@@ -6,6 +6,15 @@
 
 ![robot picture](minsky.jpg "I can help")
 
+## Installation requirements
+
+To build and run this project you will need to install:
+- ![JDK 11](https://www.oracle.com/uk/java/technologies/javase-downloads.html) (may work with newer versions)
+- ![Yarn](https://classic.yarnpkg.com/en/docs/install/)
+- ![Maven](https://maven.apache.org/download.cgi) - [Guide](https://www.baeldung.com/install-maven-on-windows-linux-mac)
+
+NOTE: If you are using zsh instead of bash on mac, make sure to edit the `$HOME/.zshrc` instead of `$HOME/.bashrc` in step 4.2
+
 ## Building
 
 To run the backend of this application:
