@@ -72,15 +72,14 @@ public class Update extends HttpServlet implements DownloadCallback {
         } else {
             try {
                 String requestedVersionID = req.getParameter("download");
-                // Revert this before merging into non group G repo.
                 URI location = Updater
-                        .getRedirect("https://github.com/ECM3432-G/ECM3432-2021-minsky/releases/latest/");
+                        .getRedirect("https://github.com/ExeterBScDTS/ECM3432-2020-minsky/releases/latest/");
                 String[] url = location.getPath().split("/");
                 String versionID = url[url.length - 1];
                 // String warURL =
                 // "https://github.com/ExeterBScDTS/ECM3432-2020-minsky/releases/download/" +
                 // versionID + "/minskyOne-0.2.war";
-                String zipURL = "https://github.com/ECM3432-G/ECM3432-2021-minsky/releases/download/" + versionID
+                String zipURL = "https://github.com/ExeterBScDTS/ECM3432-2020-minsky/releases/download/" + versionID
                         + "/minskyOne-" + versionID + ".zip";
                 Updater.downloadBinary(zipURL, "minskyOne-" + versionID + ".zip", this);
             } catch (Exception e) {

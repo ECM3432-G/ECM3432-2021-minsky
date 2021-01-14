@@ -1,8 +1,8 @@
-# ECM3432-2021-minsky
+# ECM3432-2020-minsky
 
 ## A software engineering exercise
 
-<https://travis-ci.com/ECM3432-G/ECM3432-2021-minsky>
+<https://travis-ci.com/ECM3432-O/ECM3432-2020-minsky>
 
 ![robot picture](minsky.jpg "I can help")
 
@@ -34,7 +34,7 @@ mvn package
 
 ## Check builds
 
-<https://travis-ci.com/github/ExeterBScDTS/ECM3432-2021-minsky>
+<https://travis-ci.com/github/ExeterBScDTS/ECM3432-2020-minsky>
 
 ## To create a release
 
